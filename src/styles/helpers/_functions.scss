@@ -1,0 +1,10 @@
+@mixin color-grad() {
+  background: rgba(164,118,69,1);
+  background: linear-gradient(to bottom, rgba(164,118,69,1) 0%, rgba(252,199,133,1) 49%, rgba(219,157,86,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@mixin background-color() {
+  background: rgba(219,156,85,1);
+  background: linear-gradient(to right, rgba(219,156,85,1) 0%, rgba(249,196,132,1) 51%, rgba(164,118,68,1) 100%);
+}

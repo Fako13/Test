@@ -1,0 +1,24 @@
+@font-face {
+  font-display: swap;
+  font-family: pt;
+  src: url('../fonts/ptmono-regular.eot');
+  src: url('../fonts/ptmono-regular.woff2') format('woff2'),
+        url('../fonts/ptmono-regular.woff') format('woff'),
+        url('../fonts/ptmono-regular.ttf') format('truetype'),
+        url('../fonts/ptmono-regular.svg#peignot_cyr') format('svg'),
+        url('../fonts/ptmono-regular.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: pt;
+  src: url('../fonts/ptsans-bolditalic.eot');
+  src: url('../fonts/ptsans-bolditalic.woff2') format('woff2'),
+        url('../fonts/ptsans-bolditalic.woff') format('woff'),
+        url('../fonts/ptsans-bolditalic.ttf') format('truetype'),
+        url('../fonts/ptsans-bolditalic.svg#peignot_cyr') format('svg'),
+        url('../fonts/ptsans-bolditalic.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+}
